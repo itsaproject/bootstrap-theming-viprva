@@ -78,7 +78,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --bs-font-sans-serif: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Verdana, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -100,11 +100,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #1a1a1a;
-  --bs-link-color: #1a1a1a;
-  --bs-link-color-rgb: 26, 26, 26;
-  --bs-link-decoration: underline;
-  --bs-link-hover-color: #151515;
-  --bs-link-hover-color-rgb: 21, 21, 21;
+  <!----bs-link-color: #1a1a1a;
+  bs-link-color-rgb: 26, 26, 26;
+  bs-link-decoration: underline;
+  bs-link-hover-color: #151515;
+  bs-link-hover-color-rgb: 21, 21, 21;-->
   --bs-code-color: #e83e8c;
   --bs-highlight-color: #55595c;
   --bs-highlight-bg: #fcefdc;
@@ -213,14 +213,14 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/*! hr {
- * margin: 1rem 0;
- * color: inherit;
- * border: 0;
-*  border-top: var(--bs-border-width) solid;
- * opacity: 0.25;
+/*hr {
+ margin: 1rem 0;
+ color: inherit;
+ border: 0;
+border-top: var(--bs-border-width) solid;
+ opacity: 0.25;
  }
-!*/
+*/
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -351,7 +351,7 @@ sup {
   top: -0.5em;
 }
 
-a {
+/*a {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   text-decoration: underline;
 }
@@ -363,7 +363,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
-
+*/
 pre,
 code,
 kbd,
