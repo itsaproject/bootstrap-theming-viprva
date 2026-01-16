@@ -100,11 +100,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: #1a1a1a;
-  <!----bs-link-color: #1a1a1a;
+  /*bs-link-color: #1a1a1a;
   bs-link-color-rgb: 26, 26, 26;
   bs-link-decoration: underline;
   bs-link-hover-color: #151515;
-  bs-link-hover-color-rgb: 21, 21, 21;-->
+  bs-link-hover-color-rgb: 21, 21, 21;*/
   --bs-code-color: #e83e8c;
   --bs-highlight-color: #55595c;
   --bs-highlight-bg: #fcefdc;
@@ -351,9 +351,9 @@ sup {
   top: -0.5em;
 }
 
-/*a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-  text-decoration: underline;
+a {
+  color: #C8A96A;
+  text-decoration: none;
 }
 a:hover {
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
@@ -363,7 +363,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
-*/
+
 pre,
 code,
 kbd,
