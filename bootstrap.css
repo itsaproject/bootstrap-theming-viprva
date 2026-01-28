@@ -315,11 +315,13 @@ dd {
 
 blockquote {
   margin: 0 0 1rem;
+  border-left: 2px #293C50;
 }
 
 b,
 strong {
   font-weight: bolder;
+  font-style: italic;
 }
 
 small, .small {
